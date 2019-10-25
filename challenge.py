@@ -7,7 +7,7 @@ distance_cache = {}
 distance_cache_hits = 0
 
 def load_countries():
-    with open("../countries.json") as json_txt:
+    with open("countries.json") as json_txt:
         data = json.load(json_txt)
 
     countries = {}
